@@ -1,0 +1,37 @@
+/*HEADER*/
+
+.header {
+    background-color: rgb(54, 53, 53);
+}
+
+.header-icono-mate{
+    height: 35px;
+    width: 35px;
+    vertical-align: text-bottom;
+}
+
+.navbar{
+    background-color: #94be9d;
+}
+
+.offcanvas-header{
+    background-color: #94be9d;
+}
+
+.offcanvas-body{
+    background-color: #94be9d;
+}
+
+.navbar-nav .dropdown-menu{
+    background-color: #729279;
+}
+
+.dropdown-item:hover{
+    background-color: #729279;
+}
+
+
+/* .offcanvas-title{
+    color: aliceblue;
+} */
+
