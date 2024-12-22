@@ -16,7 +16,7 @@
             <div class="container-fluid">
                 <div>
                     <img src="./images/icon-uno-mate.png" alt="" class="header-icono-mate">
-                    <a class="navbar-brand" href="#">AniMate</a>
+                    <a class="navbar-brand" href="#" style="font-size: 30px;">AniMate</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
@@ -62,6 +62,86 @@
         </nav>
     </header>
     <main>
+        <div id="contenedor-catalogo">
+            <h2 class="titulo-catalogo">Nuestro catalogo</h2>
+            <div id="contenedor-mates">
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Mate-imperial.jpg" alt="Mate Imperial">
+                    <h6>Mate Imperial</h6>
+                    <button class="boton-sumar-carrito" data-id="1">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Mate-camionero.jpg" alt="Mate Camionero">
+                    <h6>Mate Camionero</h6>
+                    <button class="boton-sumar-carrito" data-id="2">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Mate-acero.jpg" alt="Mate Acero">
+                    <h6>Mate Acero</h6>
+                    <button class="boton-sumar-carrito" data-id="3">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Mate-criollo.jpg" alt="Mate Criollo">
+                    <h6>Mate Criollo</h6>
+                    <button class="boton-sumar-carrito" data-id="4">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Mate-imperial-labrado.png" alt="Mate Imperial Labrado">
+                    <h6>Mate Imperial Labrado</h6>
+                    <button class="boton-sumar-carrito" data-id="5">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Mate-camionero-premium.jpg" alt="Mate Camionero Premium">
+                    <h6>Mate Camionero Premium</h6>
+                    <button class="boton-sumar-carrito" data-id="6">Agregar al carrito</button>
+                </div>
+            </div>
+         
+            <div id="contenedor-bombillas">
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Bombilla-guitarra.jpg" alt="Bombilla Guitarra">
+                    <h6>Bombilla Guitarra</h6>
+                    <button class="boton-sumar-carrito" data-id="7">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Bombilla-artesanal.jpg" alt="Bombilla Artesanal">
+                    <h6>Bombilla Artesanal</h6>
+                    <button class="boton-sumar-carrito" data-id="8">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Bombilla-bomba.jpg" alt="Bombilla Bomba">
+                    <h6>Bombilla Bomba</h6>
+                    <button class="boton-sumar-carrito" data-id="9">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Bombilla-picoLoro.jpg" alt="Bombilla Pico Loro">
+                    <h6>Bombilla Pico Loro</h6>
+                    <button class="boton-sumar-carrito" data-id="10">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <img src="../MiProyectoJS/images/Bombilla-larga-bisagra.jpg" alt="Bombilla larga con bisagra">
+                    <h6>Bombilla larga con bisagra</h6>
+                    <button class="boton-sumar-carrito" data-id="11">Agregar al carrito</button>
+                </div>
+                <div class="card-item">
+                    <div class="contenedor-imagen">
+                        <img src="../MiProyectoJS/images/Bombilla-tres-corazones.jpg" alt="Bombilla Tres corazones">
+                    </div>
+                    <h6>Bombilla Tres Corazones</h6>
+                    <button class="boton-sumar-carrito" data-id="12">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    
+        <div id="contenedor-carrito">
+            <div class="carrito">
+                <h6 class="titulo-carrito">Tu carrito:</h6>
+                <ul id="lista-carrito"></ul>
+                <p id="total">Total: $0</p>
+                <button id="vaciar-carrito">Vaciar Carrito</button>
+            </div>
+        </div>
+
     </main>
 
 

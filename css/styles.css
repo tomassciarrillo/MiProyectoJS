@@ -5,8 +5,8 @@
 }
 
 .header-icono-mate{
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     vertical-align: text-bottom;
 }
 
@@ -31,7 +31,160 @@
 }
 
 
-/* .offcanvas-title{
-    color: aliceblue;
-} */
 
+/*
+* MAIN:  
+*/
+
+
+#contenedor-catalogo{
+    background-color: rgb(227, 236, 227);
+}
+
+.titulo-catalogo{
+    color: rgb(161, 188, 161);
+    justify-self: center;
+}
+
+#contenedor-catalogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+#contenedor-mates{
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+    column-gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+    width: 90%;
+
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#contenedor-bombillas{
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 90%;
+}
+
+.boton-sumar-carrito{
+    background-color: rgb(177, 199, 177);
+    color: aliceblue;
+    border: aliceblue;
+    border-radius: 3px;
+}
+
+#contenedor-catalogo h6{
+    color: rgb(161, 188, 161);
+}
+
+
+.card-item h6{
+    margin-top: 10px;
+}
+
+.boton-sumar-carrito:hover{
+    background-color: rgb(168, 193, 168);
+}
+
+.card-item img:hover{
+    transform: scale(1.02,1.02);
+}
+
+.card-item img{
+    border: 2px solid aliceblue;
+    border-radius: 2px;
+    /*PRUEBA SIN STOCK*/
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/*CARRITO:*/
+
+
+#contenedor-carrito{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carrito{
+    background-color:rgb(227, 236, 227);
+    min-height: 200px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.titulo-carrito{
+    color: rgb(161, 188, 161);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#vaciar-carrito{
+    background-color: rgb(219, 107, 107);
+    color: aliceblue;
+    border: aliceblue;
+}
+
+#vaciar-carrito:hover{
+    background-color: rgb(184, 91, 91);
+}
+
+
+.eliminar-item-carrito{
+    margin-left: 20px;
+    color: rgb(161, 188, 161);
+    text-decoration: none;
+    border: none;
+    background-color:rgb(227, 236, 227) ;
+}
+
+
+
+/*prueba etiqueta SIN STOCK*/
+
+.sin-stock {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(240, 237, 237, 0.8);
+    color: rgb(154, 174, 152);
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-imagen{
+    position: relative;
+    display: inline-block;
+}
